@@ -26,6 +26,6 @@ jobs:
           ls
           go build
           ls
-          go test
+          go test -v
         working-directory: upper
         name: build and test
